@@ -1,0 +1,9 @@
+-- CreateTable
+CREATE TABLE "Students" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "name" TEXT NOT NULL,
+    "lastName" TEXT NOT NULL,
+    "score" INTEGER NOT NULL DEFAULT 0,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "badge" TEXT NOT NULL
+);
